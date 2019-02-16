@@ -1,0 +1,71 @@
+/*@import url('https://fonts.googleapis.com/css?family=Montserrat');*/
+/*@import url('https://fonts.googleapis.com/css?family=Nunito');*/
+
+@font-face {
+	font-family: 'Montserrat';
+	font-style: normal;
+	src: local('Montserrat'), url("assets/fonts/Montserrat.ttf") format('truetype');
+}
+
+@font-face {
+	font-family: 'Nunito';
+	font-style: normal;
+	src: local('Nunito'), url("assets/fonts/Nunito.ttf") format('truetype');
+}
+
+* {
+	font-family: Nunito, sans-serif;
+	color: #343434
+}
+
+.heading {
+	color: #474747;
+	font-family: 'Montserrat', sans-serif
+}
+
+/*
+.container {
+	margin: 0;
+	padding: 0;
+	border-width: 5px;
+	border-color: red;
+}
+*/
+
+
+.row-header{
+	margin:0px auto;
+	padding:0px auto;
+}
+
+.row-content {
+	margin:0px auto;
+	padding: 50px 0px 50px 0px;
+	border-bottom: 1px ridge;
+	min-height:400px;
+}
+
+.footer{
+	background-color: #D1C4E9;
+	margin:0px auto;
+	padding: 20px 0px 20px 0px;
+}
+
+/*
+.jumbotron {
+	padding:70px 30px 70px 30px;
+	margin:0px auto;
+	background: #9575CD ;
+	color:floralwhite;
+}
+*/
+
+address{
+	font-size:80%;
+	margin:0px;
+	color:#0f0f0f;
+}
+
+.navbar-dark {
+	background-color: #512DA8;
+}
